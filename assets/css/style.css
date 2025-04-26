@@ -41,10 +41,14 @@ header h1 {
 /* Main Layout */
 main {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 50px;
-    margin: 80px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 80px;
+    margin: 100px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 section {
     margin-bottom: 60px;
