@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #222;
+}
+
+nav {
+    padding: 1em;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+
+main.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    gap: 40px;
+}
+
+main.grid div {
+    flex: 1 1 300px;
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 20px;
+    transition: background 0.3s;
+}
+
+main.grid div:hover {
+    background: #f9f9f9;
+}
+
+main.grid .full-width {
+    flex: 1 1 100%;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
