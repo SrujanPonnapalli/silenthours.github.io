@@ -2,6 +2,7 @@
 title: "Cityscape at Dusk"
 date: 2025-04-24
 excerpt: "Chasing light between the skyscrapers."
+thumbnail: "/assets/images/photography.jpg"
 ---
 
 ![Cityscape at Dusk](/assets/images/photography.jpg)
