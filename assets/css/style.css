@@ -49,7 +49,6 @@ main {
     margin-right: auto;
 }
 
-
 section {
     margin-bottom: 60px;
 }
@@ -130,4 +129,27 @@ section:hover {
 .fade-in.visible {
     opacity: 1;
     transform: none;
+}
+
+
+/* Gallery container */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 40px 0;
+}
+
+/* Gallery images */
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+
+/* Hover zoom effect */
+.gallery img:hover {
+    transform: scale(1.02);
 }
