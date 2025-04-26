@@ -1,3 +1,4 @@
+/* Reset and Base Styles */
 body {
     margin: 0;
     padding: 0;
@@ -13,10 +14,15 @@ nav {
 }
 
 nav a {
-    margin: 0 10px;
+    margin: 0 15px;
     text-decoration: none;
     color: #555;
     font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #000;
 }
 
 header {
@@ -29,32 +35,65 @@ header h1 {
     font-size: 3em;
 }
 
-main.grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 50px;
-    gap: 40px;
+/* Main Layout Styles */
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 50px;
+    margin: 80px;
 }
 
-main.grid div {
-    flex: 1 1 300px;
-    text-align: center;
-    border: 1px solid #eee;
-    padding: 20px;
-    transition: background 0.3s;
-}
-
-main.grid div:hover {
-    background: #f9f9f9;
-}
-
-main.grid .full-width {
-    flex: 1 1 100%;
+section {
+    margin-bottom: 60px;
 }
 
 h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 1.8em;
-    margin-bottom: 0.5em;
+    font-size: 2.8em;
+    margin-bottom: 10px;
+}
+
+.entry-preview {
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.entry-preview h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.entry-preview p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Link Styles */
+a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+    color: #5b5b5b;
+    text-decoration: underline;
+}
+
+/* Image Styles */
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Soft hover effect for sections */
+section:hover {
+    background-color: #fafafa;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+    padding: 10px;
 }

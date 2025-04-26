@@ -1,0 +1,48 @@
+title: Blog
+baseurl: ""
+url: "https://srujanponnapalli.github.io"
+markdown: kramdown
+
+collections:
+  journal:
+    output: true
+    permalink: /journal/:title/
+  poetry:
+    output: true
+    permalink: /poetry/:title/
+  art:
+    output: true
+    permalink: /art/:title/
+  photography:
+    output: true
+    permalink: /photography/:title/
+  media:
+    output: true
+    permalink: /media/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "journal"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "poetry"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "art"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "photography"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "media"
+    values:
+      layout: "post"
