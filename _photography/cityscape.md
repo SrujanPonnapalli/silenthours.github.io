@@ -1,11 +1,17 @@
 ---
-title: "Cityscape at Dusk"
+title: "Bahamas"
 date: 2025-04-24
 excerpt: "Chasing light between the skyscrapers."
-thumbnail: "/assets/images/photography.jpg"
+thumbnail: "/assets/images/bahamas/street_2.jpg"
 ---
 
-![Cityscape at Dusk](/assets/images/photography.jpg)
+<img src="/assets/images/bahamas/street_2.jpg" alt="Cityscape at Dusk" class="hero-image">
 
-A single snapshot at dusk — the city pulses with a soft glow.  
-Streets stretch like veins of light, while distant towers disappear into the misty horizon.
+A quiet evening captured through lens and light.
+
+<div class="gallery">
+  <img src="/assets/images/bahamas/crosswalk.jpg" alt="Cityscape Detail 1">
+  <img src="/assets/images/bahamas/flag.jpg" alt="Cityscape Detail 2">
+  <img src="/assets/images/bahamas/lighthouse.jpg" alt="Cityscape Detail 3">
+  <img src="/assets/images/bahamas/ravine_1.jpg" alt="Cityscape Detail 4">
+</div>
