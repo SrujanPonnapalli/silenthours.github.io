@@ -153,3 +153,14 @@ section:hover {
 .gallery img:hover {
     transform: scale(1.02);
 }
+
+/* Contained Hero Image */
+.hero-contained {
+    display: block;
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    margin: 40px auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
