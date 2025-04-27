@@ -85,8 +85,6 @@ a:hover {
 
 /* Main Layout */
 main {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 80px;
     margin: 40px auto 40px auto; /* reduced margin-top between nav and content */
     max-width: 1400px;
