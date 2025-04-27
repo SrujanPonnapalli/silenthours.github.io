@@ -96,27 +96,34 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Entry Previews */
+/* Outer card */
 .entry-preview {
     position: relative;
     padding: 20px;
-    background: #00000000; /* or whatever soft background you want */
+    background: #f8f8f8; /* soft background */
     border-radius: 10px;
     overflow: hidden;
     transition: border 0.4s ease;
-    border: 2px solid transparent; /* Start with no visible border */
+    border: 2px solid transparent;
 }
 
-/* Hover effect on the whole card */
+/* Hover effect on the WHOLE card */
 .entry-preview:hover {
-    border: 2px solid #000000; /* Or any darker color you want for the outline */
+    border: 2px solid #222; /* Outline color */
+    background-color: #f8f8f8; /* Keep SAME background */
 }
 
-/* Link inside */
+/* Remove hover color from inner stuff */
+.entry-preview *:hover {
+    background: none !important;
+    color: inherit !important;
+}
+
+/* Links inside the card */
 .entry-preview a {
     position: relative;
     display: inline-block;
-    color: #000000;
+    color: #333;
     text-decoration: none;
     font-weight: 600;
     background-image: linear-gradient(currentColor, currentColor);
