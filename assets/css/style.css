@@ -105,10 +105,16 @@ h2 {
     position: relative;
     padding: 20px;
     background: #f8f8f800;
-    border-radius: 10px;
     overflow: hidden;
-    border: 2px solid transparent;
-    transition: border-color 0.4s ease, background-color 0.4s ease;
+    transition: none;
+    outline: none;
+    border: none;
+}
+
+.entry-preview:focus, .entry-preview:active {
+    outline: none;
+    background-color: #f8f8f800;
+    border: none;
 }
 
 /* Links inside the card */
