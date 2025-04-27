@@ -27,15 +27,16 @@ title: blog
 </section>
 
 <section>
-  <h2>Photography</h2>
-  {% for post in site.photography limit:1 %}
-    <div class="entry-preview">
+    <h2>Photography</h2>
+    {% for post in site.photography limit:1 %}
+      <div class="entry-preview">
         {% if post.thumbnail %}
-        <img src="{{ post.thumbnail }}" alt="{{ post.title }} thumbnail" class="thumbnail">
-      {% endif %}
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    </div>
-  {% endfor %}
+          <a href="{{ post.url }}">
+            <img src="{{ post.thumbnail }}" alt="{{ post.title }} thumbnail" class="thumbnail">
+          </a>
+        {% endif %}
+      </div>
+    {% endfor %}
 </section>
 
 <section>
@@ -48,7 +49,7 @@ title: blog
 </section>
 
 <section>
-  <h2>Media Reflections</h2>
+  <h2>Media</h2>
   {% for post in site.media limit:2 %}
     <div class="entry-preview">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
