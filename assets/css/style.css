@@ -130,8 +130,9 @@ img {
     display: block;
     max-width: 900px;
     width: 100%;
-    max-height: 450px; /* LIMIT the height */
-    object-fit: cover; /* Crop but preserve center */
+    height: 400px;
+    object-fit: cover;
+    object-position: center center;
     margin: 40px auto;
     border-radius: 8px;
 }
@@ -184,6 +185,12 @@ section:hover {
     nav a {
         display: block;
         margin: 10px 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    main {
+        padding: 0 30px;
     }
 }
 
