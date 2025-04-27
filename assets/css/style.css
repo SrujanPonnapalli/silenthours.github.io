@@ -276,3 +276,9 @@ img {
     gap: 40px;
     margin-top: 40px;
 }
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 80px;
+}
