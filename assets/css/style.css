@@ -130,7 +130,8 @@ img {
     display: block;
     max-width: 900px;
     width: 100%;
-    height: auto;
+    max-height: 450px; /* LIMIT the height */
+    object-fit: cover; /* Crop but preserve center */
     margin: 40px auto;
     border-radius: 8px;
 }
