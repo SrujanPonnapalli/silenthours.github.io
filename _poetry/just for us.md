@@ -17,7 +17,7 @@ Memories on an invisible canvas.
 
 We danced through seasons,
 Autumn leaves cradling laughter,
-Winter's embrace warming hands
+Winter's embrace warming us
 
 Stars danced around us,
 Each heartbeat a note in our symphony,

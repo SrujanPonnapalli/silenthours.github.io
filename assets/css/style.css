@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     font-size: 1.1em;
+    line-height: 1.6;
 }
 
 main h1 {
@@ -86,12 +87,11 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 80px;
-    margin: 60px auto 40px auto; /* reduced margin-top between nav and content */
+    margin: 0px auto 40px auto; /* reduced margin-top between nav and content */
     max-width: 1400px;
 }
 
 section {
-    margin-bottom: 60px;
     margin-left: 0;
 }
 
@@ -104,7 +104,6 @@ h2 {
 /* Outer card */
 .entry-preview {
     position: relative;
-    padding: 20px;
     background: #f8f8f800;
     overflow: hidden;
     transition: none;
