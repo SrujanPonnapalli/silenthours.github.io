@@ -179,13 +179,6 @@ img {
     transform: scale(1.02);
 }
 
-/* Hover Effect on Sections */
-.gallery:hover {
-    background-color: #fafafa00;
-    transition: background-color 0.3s ease;
-    border-radius: 8px;
-    padding: 10px;
-}
 
 /* Fade-In Animation */
 .fade-in {

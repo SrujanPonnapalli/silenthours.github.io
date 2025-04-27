@@ -4,7 +4,7 @@ date: 2025-04-25
 excerpt: "In the dream, I don't tell anyone,\nYou looked at me,\nAnd the world paused,\njust for us."
 ---
 
-In the dream, I don't tell anyone,
+In the dream I don't tell anyone,
 You looked at me,
 And the world paused, 
 just for us.
@@ -24,6 +24,7 @@ Each heartbeat a note in our symphony,
 Moments folded into eternity.
 
 And in that glance, 
+In that dream,
 the world paused,
 just for us.
 
