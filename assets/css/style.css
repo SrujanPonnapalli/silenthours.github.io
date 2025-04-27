@@ -275,3 +275,14 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 80px;
 }
+
+#lava-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none; /* So users can click through it */
+    background-color: #fffcf0; /* match your site's background */
+  }

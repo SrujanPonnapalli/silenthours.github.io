@@ -37,9 +37,6 @@ These photos were from my cruise to the Bahamas over winter break, when we were 
   <a href="/assets/images/bahamas/ship_1.jpg">
     <img src="/assets/images/bahamas/ship_1.jpg" alt="Scene 1">
   </a>
-    <a href="/assets/images/bahamas/ship_1.jpg">
-    <img src="/assets/images/bahamas/ship_1.jpg" alt="Scene 1">
-  </a>
     <a href="/assets/images/bahamas/ship_2.jpg">
     <img src="/assets/images/bahamas/ship_2.jpg" alt="Scene 1">
   </a>
