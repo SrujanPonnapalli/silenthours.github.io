@@ -29,7 +29,7 @@ a:hover {
 /* Header */
 .site-header {
     background: white;
-    padding: 10px 40px;
+    padding: 5px 40px; /* reduced padding for tighter navbar */
     border-bottom: 1px solid #eee;
 }
 
@@ -39,7 +39,7 @@ a:hover {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    height: 60px;
+    height: 50px; /* reduced height for tighter navbar */
 }
 
 .site-title a {
@@ -64,7 +64,7 @@ a:hover {
 
 /* Navigation fallback */
 nav {
-    padding: 1em;
+    padding: 0.5em;
     text-align: center;
     font-size: 1em;
 }
@@ -78,7 +78,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 80px;
-    margin: 100px auto;
+    margin: 60px auto 40px auto; /* reduced margin-top between nav and content */
     max-width: 1400px;
 }
 
