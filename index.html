@@ -1,12 +1,12 @@
 ---
 layout: default
-title: silent hours with srujan
+title: blog
 ---
 
 <main>
 
 <section>
-  <h2>Recent Journal Entries</h2>
+  <h2>Journal</h2>
   {% for post in site.journal limit:2 %}
     <div class="entry-preview">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
@@ -16,7 +16,7 @@ title: silent hours with srujan
 </section>
 
 <section>
-  <h2>Recent Poems</h2>
+  <h2>Poetry</h2>
   {% for post in site.poetry limit:2 %}
     <div class="entry-preview">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
