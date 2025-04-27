@@ -128,7 +128,7 @@ function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   ctx.globalCompositeOperation = "lighter";
-  ctx.filter = "blur(50px)";
+  ctx.filter = "blur(100px)";
 
   blobs.forEach(blob => {
     blob.r = blob.baseR + Math.sin(time * 2 + blob.wobblePhase) * 30;
