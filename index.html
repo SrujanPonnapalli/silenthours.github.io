@@ -1,46 +1,50 @@
 ---
 layout: default
-title: blog
+title: silent hours
 ---
 
 <main>
 
 <section>
-  <h2><a href="/journal/"></a>Journal</h2>
+  <h2><a href="/journal/">Journal</a></h2>
   {% for post in site.journal limit:2 %}
-  <div class="entry-preview">
-    <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
-    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-    <p>{{ post.excerpt }}</p>
-  </div>
-{% endfor %}
-</section>
-
-<section>
-  <h2>Poetry</h2>
-  {% for post in site.poetry limit:2 %}
     <div class="entry-preview">
+      <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p>{{ post.excerpt }}</p>
+      {% if post.excerpt %}
+        <p>{{ post.excerpt }}</p>
+      {% endif %}
     </div>
   {% endfor %}
 </section>
 
 <section>
-    <h2>Photography</h2>
-    {% for post in site.photography limit:1 %}
-      <div class="entry-preview">
-        {% if post.thumbnail %}
-          <a href="{{ post.url }}">
-            <img src="{{ post.thumbnail }}" alt="{{ post.title }} thumbnail" class="thumbnail">
-          </a>
-        {% endif %}
-      </div>
-    {% endfor %}
+  <h2><a href="/poetry/">Poetry</a></h2>
+  {% for post in site.poetry limit:2 %}
+    <div class="entry-preview">
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      {% if post.excerpt %}
+        <p>{{ post.excerpt }}</p>
+      {% endif %}
+    </div>
+  {% endfor %}
 </section>
 
 <section>
-  <h2>Art</h2>
+  <h2><a href="/photography/">Photography</a></h2>
+  {% for post in site.photography limit:1 %}
+    <div class="entry-preview">
+      {% if post.thumbnail %}
+        <a href="{{ post.url }}">
+          <img src="{{ post.thumbnail }}" alt="{{ post.title }} thumbnail" class="thumbnail">
+        </a>
+      {% endif %}
+    </div>
+  {% endfor %}
+</section>
+
+<section>
+  <h2><a href="/art/">Art</a></h2>
   {% for post in site.art limit:1 %}
     <div class="entry-preview">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
@@ -49,11 +53,13 @@ title: blog
 </section>
 
 <section>
-  <h2>Media</h2>
+  <h2><a href="/media/">Media</a></h2>
   {% for post in site.media limit:2 %}
     <div class="entry-preview">
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p>{{ post.excerpt }}</p>
+      {% if post.excerpt %}
+        <p>{{ post.excerpt }}</p>
+      {% endif %}
     </div>
   {% endfor %}
 </section>
