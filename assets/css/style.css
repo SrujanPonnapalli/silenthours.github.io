@@ -100,17 +100,16 @@ h2 {
 .entry-preview {
     position: relative;
     padding: 20px;
-    background: #f8f8f8; /* soft background */
+    background: #f8f8f800;
     border-radius: 10px;
     overflow: hidden;
-    transition: border 0.4s ease;
     border: 2px solid transparent;
+    transition: border-color 0.4s ease, background-color 0.4s ease;
 }
 
-/* Hover effect on the WHOLE card */
 .entry-preview:hover {
-    border: 2px solid #222; /* Outline color */
-    background-color: #f8f8f8; /* Keep SAME background */
+    border-color: #222;
+    background-color: #f8f8f800; /* keep background same */
 }
 
 /* Remove hover color from inner stuff */
