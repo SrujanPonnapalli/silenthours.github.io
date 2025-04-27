@@ -13,6 +13,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #111;
 }
 
+main h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Libre Baskerville', serif;
+}
+
 /* Links */
 a {
     color: #333;
@@ -28,7 +35,7 @@ a:hover {
 
 /* Header */
 .site-header {
-    background: white;
+    background: FFFFF0;
     padding: 5px 40px;
     border-bottom: 1px solid #eee;
 }
