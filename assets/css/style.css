@@ -37,9 +37,10 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 90%;
     margin: 0 auto;
     height: 50px;
+    padding: 0 40px;
 }
 
 .site-title a {
