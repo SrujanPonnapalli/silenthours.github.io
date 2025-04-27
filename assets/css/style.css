@@ -29,7 +29,7 @@ a:hover {
 /* Header */
 .site-header {
     background: white;
-    padding: 5px 40px; /* reduced padding for tighter navbar */
+    padding: 5px 40px;
     border-bottom: 1px solid #eee;
 }
 
@@ -39,7 +39,7 @@ a:hover {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    height: 50px; /* reduced height for tighter navbar */
+    height: 50px;
 }
 
 .site-title a {

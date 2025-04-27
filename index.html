@@ -8,11 +8,12 @@ title: blog
 <section>
   <h2>Journal</h2>
   {% for post in site.journal limit:2 %}
-    <div class="entry-preview">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      <p>{{ post.excerpt }}</p>
-    </div>
-  {% endfor %}
+  <div class="entry-preview">
+    <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p>{{ post.excerpt }}</p>
+  </div>
+{% endfor %}
 </section>
 
 <section>
