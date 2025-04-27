@@ -107,17 +107,6 @@ h2 {
     transition: border-color 0.4s ease, background-color 0.4s ease;
 }
 
-.entry-preview:hover {
-    border-color: #222;
-    background-color: #f8f8f800; /* keep background same */
-}
-
-/* Remove hover color from inner stuff */
-.entry-preview *:hover {
-    background: none !important;
-    color: inherit !important;
-}
-
 /* Links inside the card */
 .entry-preview a {
     position: relative;
