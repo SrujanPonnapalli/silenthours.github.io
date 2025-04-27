@@ -100,15 +100,38 @@ h2 {
 .entry-preview {
     position: relative;
     padding: 20px;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    transition: box-shadow 0.4s ease;
+    background: #00000000; /* or whatever soft background you want */
+    border-radius: 10px;
+    overflow: hidden;
+    transition: border 0.4s ease;
+    border: 2px solid transparent; /* Start with no visible border */
 }
 
+/* Hover effect on the whole card */
 .entry-preview:hover {
-    box-shadow: 0 0 0 2px #888; /* nice outline */
+    border: 2px solid #000000; /* Or any darker color you want for the outline */
 }
+
+/* Link inside */
+.entry-preview a {
+    position: relative;
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.4s ease;
+}
+
+/* Link hover underline grows */
+.entry-preview a:hover {
+    background-size: 100% 2px;
+}
+
+
 
 /* Images */
 img {
@@ -191,5 +214,5 @@ section:hover {
     font-family: 'Work Sans', sans-serif;
     font-size: 0.9em;
     color: #000000;
-    margin-bottom: 0px;
+    margin-bottom: 2px;
 }
