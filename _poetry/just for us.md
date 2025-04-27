@@ -1,7 +1,7 @@
 ---
 title: "Just for Us"
 date: 2025-04-25
-excerpt: "In the dream, I don't tell anyone,\nYou looked at me,\nAnd the world paused,\njust for us."
+hard_wrap: true
 ---
 
 In the dream I don't tell anyone,
