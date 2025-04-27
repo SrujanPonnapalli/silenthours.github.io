@@ -5,7 +5,7 @@ excerpt: "Chasing light between the skyscrapers."
 thumbnail: "/assets/images/bahamas/street_2.jpg"
 ---
 
-<img src="/assets/images/bahamas/street_2.jpg" alt="Cityscape at Dusk" class="hero-image">
+<img src="/assets/images/bahamas/street_2.jpg" alt="Cityscape at Dusk" class="hero-contained">
 
 A quiet evening captured through lens and light.
 
