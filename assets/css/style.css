@@ -168,7 +168,7 @@ section:hover {
 /* Header */
 .site-header {
     background: white;
-    padding: 20px 40px;
+    padding: 10px 40px;
     border-bottom: 1px solid #eee;
 }
 
@@ -178,6 +178,7 @@ section:hover {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    height:60px;
 }
 
 .site-title a {
