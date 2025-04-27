@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 main h1 {
@@ -92,6 +92,7 @@ main {
 
 section {
     margin-bottom: 60px;
+    margin-left: 0;
 }
 
 /* Section Titles */
@@ -109,6 +110,7 @@ h2 {
     transition: none;
     outline: none;
     border: none;
+    -webkit-tap-highlight-color: transparent; /* Mobile highlight fix */
 }
 
 .entry-preview:focus, .entry-preview:active {
@@ -122,6 +124,8 @@ h2 {
     position: relative;
     display: inline-block;
     color: #333;
+    background-color: transparent;
+    -webkit-tap-highlight-color: transparent;
     text-decoration: none;
     font-weight: 600;
     background-image: linear-gradient(currentColor, currentColor);
@@ -178,8 +182,8 @@ img {
 }
 
 /* Hover Effect on Sections */
-section:hover {
-    background-color: #fafafa;
+.gallery:hover {
+    background-color: #fafafa00;
     transition: background-color 0.3s ease;
     border-radius: 8px;
     padding: 10px;
